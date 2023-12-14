@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #e49a33;
+    color: #fff;
+    padding: 30px 0;
+    /* height: 20vh; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+}
+.logo{
+    display: flex;
+}
+
+.logo img {
+    height: 80px; 
+    width: auto;
+    margin-left: 340px;
+}
+
+.logo-text {
+    font-size: 28px;
+    color: #fff;
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-left: 20px;
+    /* text-align: center; */
+    
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e49a33;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 8px;
+    flex: 1;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.result {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.result{
+    margin-bottom: 20px;
+}
+
+.result h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.result p {
+    margin-bottom: 8px;
+}
+
+
+.line{
+    border-left: 4px solid #fff;
+   
+}
+.line p{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    body{
+        margin: 20px;
+    }
+    .logo{
+        text-align: center;
+        margin-left: 25px;
+    }
+    
+    .logo img {
+        height: 40px;
+        margin: 0;
+    }
+    .logo-text {
+        font-size: 16px;
+        margin: 0;
+    }
+    .container {
+        padding: 20px;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .search-box {
+        flex-direction: column; 
+    }
+
+    input {
+        margin-bottom: 10px; 
+        width: 100%;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    .result h3 {
+        font-size: 18px; 
+        margin-bottom: 3px; 
+    }
+
+    .result p {
+        margin-bottom: 5px; 
+    }
+
+    .line p {
+        margin: 0;
+        margin-left:5px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
